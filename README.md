@@ -66,5 +66,5 @@ You can customize the following constants in `index.js`:
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-Created with ❤️ by [whoisch4t]
+Created with ❤️ by whoisch4t
 
