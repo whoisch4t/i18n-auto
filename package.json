@@ -1,0 +1,42 @@
+{
+  "name": "i18n-auto",
+  "version": "1.0.0",
+  "description": "Automatically synchronize and translate i18n JSON files using DeepL API",
+  "main": "index.js",
+  "bin": {
+    "i18n-auto": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "i18n",
+    "deepl",
+    "translate",
+    "localization",
+    "json",
+    "sync",
+    "node"
+  ],
+  "author": "whoisch4t",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whoisch4t/i18n-auto.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whoisch4t/i18n-auto/issues"
+  },
+  "homepage": "https://github.com/whoisch4t/i18n-auto#readme",
+  "dependencies": {
+    "deepl-node": "^1.27.0",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
